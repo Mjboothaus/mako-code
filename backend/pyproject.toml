@@ -1,0 +1,23 @@
+[project]
+name = "backend"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "bokeh==3.6.3",
+    "fastapi==0.109.0",
+    "google-cloud-bigquery==3.31.0",
+    "google-cloud-bigquery-storage==2.26.0",
+    "google-cloud-storage==3.0.0",
+    "matplotlib==3.10.1",
+    "polars==1.22.0",
+    "pyarrow==19.0.1",
+    "pydantic==2.6.1",
+    "python-dotenv==1.0.0",
+    "python-multipart>=0.0.18",
+    "restrictedpython>=8.0",
+    "ruff==0.1.14",
+    "scikit-learn==1.6.1",
+    "seaborn==0.13.2",
+    "urllib3>=1.26.19",
+    "uvicorn==0.27.0",
+]
